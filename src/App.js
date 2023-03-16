@@ -1,12 +1,13 @@
 import Navbar from './components/NavBar/Navbar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import GlobalStyle from './globalStyles';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <Navbar/>Whattt uppp
-      </header>
-    </div>
+    <Router>
+      <GlobalStyle/>
+       <Navbar/>
+    </Router>
   );
 }
 

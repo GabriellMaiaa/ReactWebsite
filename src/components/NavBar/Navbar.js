@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavbarContainer } from './Navbar.element'
+import { Nav, NavbarContainer, NavIcon, NavLogo } from './Navbar.element'
 
 
 const Navbar = () => {
@@ -7,8 +7,8 @@ const Navbar = () => {
     <div>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>
-                    <NavIcon/>
+                <NavLogo to='/'>{/*Vai pegar um LINK do React Router */}
+                  <NavIcon color='#fff'/>{/*Vai ter um ícone da lib react-icons, e é importada no arq de styled-components */}
                     ULTRA
                 </NavLogo>
             </NavbarContainer>
