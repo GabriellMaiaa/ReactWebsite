@@ -91,8 +91,13 @@ export const NavLink = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1 rem;
+    padding: 1.5rem;
     height: 100%;
+
+    &:hover {
+        color: gray;
+        transition: all 0.3s ease;
+    }
 
     @media screen and (max-width: 960px) {
         text-align: center;

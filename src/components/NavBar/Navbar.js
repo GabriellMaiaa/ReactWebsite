@@ -16,16 +16,20 @@ const handleClick = () => {
             <NavbarContainer>
                 <NavLogo to='/'>{/*Vai pegar um LINK do React Router */}
                   <NavIcon color='#fff'/>{/*Vai ter um ícone da lib react-icons, e é importada no arq de styled-components */}
-                    ULTRA PHOTOS
+                    ULTRA
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                   {click ? <FaTimes/> : <FaBars/>}{/*click é o State que vai ser criado */}
                 </MobileIcon>
-                <NavMenu onClick={handleClick}>
+                <NavMenu onClick={handleClick} click={click}>
                   <NavItem>
-                    <NavLink to='/'>
-                      Home
-                    </NavLink>
+                    <NavLink to='/'>Home</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink to='/servicos'>Serviços</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink to='/quemSomos'>Produtos</NavLink>
                   </NavItem>
                 </NavMenu>
             </NavbarContainer>
