@@ -4,7 +4,7 @@ import { Nav, NavbarContainer, NavIcon, NavLogo, MobileIcon, NavMenu, NavItem, N
 import { Button } from '../../globalStyles'
 import { IconContext } from 'react-icons'
 
-const Navbar = () => {
+const Navbar = () => {// Componente criado para ficar padrão 
 const [click, setClick]= useState(false);
 const [button, setButton] = useState(true)
 
@@ -21,7 +21,7 @@ const showButton = () => {
 
 useEffect(() => {
   showButton()
-}, []) 
+}, []) //1h e 02min
 
 window.addEventListener('resize', showButton)
 
