@@ -5,7 +5,7 @@ import { homeObject } from './Data'
 const Home = () => {
   return (
     <>
-      <InfoSection/>
+      <InfoSection {...homeObject}/>
     </>
   )
 }
