@@ -42,14 +42,14 @@ window.addEventListener('resize', showButton)
                     <NavLink to='/'>Home</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink to='/servicos'>Serviços</NavLink>
+                    <NavLink to='/servicos'>Serviços</NavLink>{/*As rotas forma criadas dentro do componente Navbar */}
                   </NavItem>
                   <NavItem>
-                    <NavLink to='/quemSomos'>Produtos</NavLink>
+                    <NavLink to='/quemSomos'>Produtos</NavLink>{/*E passada só o componente Navbar dentro de APP/ROUTES */}
                   </NavItem>
                     <NavItemBtn>
                       {button ? (
-                        <NavBtnLink to='/sign-up'>
+                        <NavBtnLink to='/sign-up'>{/*O botão contém a rota da próx pagina ao clicar */}
                           <Button primary>Entrar</Button>
                         </NavBtnLink>
                       ) : (
