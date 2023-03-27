@@ -8,5 +8,8 @@ export const homeObject = {
     topLine:'Maia Enterprises' ,
     headLine:'Lidere as vendas onlines de todo o seu nicho' , 
     primary:true , 
-    buttonLabel:'Comece Agora!'
+    buttonLabel:'Comece Agora!',
+    img: require('../../images/png1.png'),
+    alt:'Imagem',
+    start:''
 }
