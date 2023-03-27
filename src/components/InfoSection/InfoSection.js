@@ -1,11 +1,11 @@
 import React from 'react'
 import  { InfoSec } from './InfoSection.elements'
 import { Button, Container } from '../../globalStyles' //Importando o Container do GlobalStyles, onde dá para reutilizar em todo canto
-import { InfoColumn, InfoRow, TextWrapper, TopLine, Heading, Subtitle } from './InfoSection.elements'
+import { InfoColumn, InfoRow, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img } from './InfoSection.elements'
 import { Link } from 'react-router-dom'
 
 const InfoSection = ({ lightBg, imgStart, lightTopLine, lightTextDesc, lightText , description, topLine
-, headLine, primary, buttonLabel}) => {
+, headLine, primary, buttonLabel, start, img, alt}) => {
   return (//Parou em 1h30min e 30s
     <>
       <InfoSec lightBg = {lightBg}>
