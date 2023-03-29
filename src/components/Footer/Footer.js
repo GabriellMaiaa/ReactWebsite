@@ -1,4 +1,5 @@
 import React from 'react'
+import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText } from './Footer.elements.js'
 
 const Footer = () => {
   return (
