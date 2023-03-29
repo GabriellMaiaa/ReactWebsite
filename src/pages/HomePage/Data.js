@@ -15,10 +15,10 @@ export const homeObject = {
 }
 export const homeObjectTwo = {
     lightBg:true, 
-    imgStart:'' , 
+    imgStart:'start' , 
     lightTopLine:false , 
     lightTextDesc:false , 
-    lightText:true  , 
+    lightText:false  , 
     description:'Nós ajudamos as Empresas a expadirem suas receitas. Nosso time contém diversos especialistas que lhe ajudarão a alcançar seus objetivos.', 
     topLine:'Maia Enterprises' ,
     headLine:'Lidere as vendas onlines de todo o seu nicho' , 
@@ -26,7 +26,7 @@ export const homeObjectTwo = {
     buttonLabel:'Comece Agora!',
     img: require('../../images/png11.png'),
     alt:'Imagem',
-    start:''
+    start:'true'
 }
 export const homeObjectThree = {
     lightBg:false, 
@@ -44,11 +44,11 @@ export const homeObjectThree = {
     start:''
 }
 export const homeObjectFour = {
-    lightBg:false, 
-    imgStart:'' , 
+    lightBg:true, 
+    imgStart:'start' , 
     lightTopLine:true , 
     lightTextDesc:true , 
-    lightText:true  , 
+    lightText:false  , 
     description:'Nós ajudamos as Empresas a expadirem suas receitas. Nosso time contém diversos especialistas que lhe ajudarão a alcançar seus objetivos.', 
     topLine:'Maia Enterprises' ,
     headLine:'Lidere as vendas onlines de todo o seu nicho' , 
@@ -56,5 +56,5 @@ export const homeObjectFour = {
     buttonLabel:'Comece Agora!',
     img: require('../../images/png11.png'),
     alt:'Imagem',
-    start:''
+    start:'true'
 }
