@@ -1,5 +1,6 @@
 import React from 'react'
-import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText } from './Footer.elements.js'
+import { Button } from '../../globalStyles.js'
+import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, FormInput, Form } from './Footer.elements.js'
 
 const Footer = () => {
   return (
@@ -11,6 +12,11 @@ const Footer = () => {
         <FooterSubText>
             Você pode cancelar o plano a qualquer momento
         </FooterSubText>
+        <Form>
+            <FormInput name='email' type='email' placeholder='email'>
+                <Button big>Se inscreva</Button>
+            </FormInput>
+        </Form>
       </FooterSubscription>
     </FooterContainer>
   )
