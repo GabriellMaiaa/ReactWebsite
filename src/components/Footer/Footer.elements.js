@@ -45,4 +45,12 @@ export const FormInput = styled.input `
     border: none;
     font-size: 16px;
     margin-right: 10px;
+
+    &::placeholder {
+        color: #242424;
+    }
+
+    @media screen and (max-width:820px) {
+        margin: 0 0 16px 0;
+    }
 `
