@@ -50,6 +50,20 @@ const Footer = () => {
                 </FooterLinksItems>
             </FooterLinkWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to='/'>
+              <SocialIcon/>
+              ULTRA
+            </SocialLogo>
+            <WebsiteRights>ULTRA © 2023</WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink href='/' aria-label='Facebook'>
+                <FaFacebook/>
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
     </FooterContainer>
   )
 }
