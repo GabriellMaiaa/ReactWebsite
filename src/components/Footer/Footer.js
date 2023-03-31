@@ -1,7 +1,9 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import { Button } from '../../globalStyles.js'
 import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, FormInput, Form, 
-  FooterLinksContainer, FooterLinkWrapper, FooterLinksItems, FooterLinksTitle, FooterLink } from './Footer.elements.js'
+  FooterLinksContainer, FooterLinkWrapper, FooterLinksItems, FooterLinksTitle, 
+  FooterLink } from './Footer.elements.js'
 
 const Footer = () => {
   return (
@@ -58,9 +60,19 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>ULTRA © 2023</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' aria-label='Facebook'>
-                <FaFacebook/>
-              </SocialIconLink>
+                <SocialIconLink href='/' aria-label='Facebook'>
+                  <FaFacebook/>
+                </SocialIconLink>
+                <SocialIconLink href='/' aria-label='Instagram'>
+                  <FaInstagram/>
+                </SocialIconLink>
+                <SocialIconLink href='/' aria-label='Youtube'>
+                  <FaYoutube/>
+                </SocialIconLink>
+                <SocialIconLink href='/' aria-label='Linkedin'>
+                  <FaLinkedin/>
+                </SocialIconLink>
+                
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>
