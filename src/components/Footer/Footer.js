@@ -22,31 +22,31 @@ const Footer = () => {
             <FooterLinkWrapper>
                 <FooterLinksItems>
                     <FooterLinksTitle>Sobre nós</FooterLinksTitle>
-                    <FooterLink to='/sign-up'></FooterLink>
-                    <FooterLink to='/avaliações'></FooterLink>
-                    <FooterLink to='/Investidores'></FooterLink>
-                    <FooterLink to='/termos de serviço'></FooterLink>
+                    <FooterLink to='/sign-up'>Teste</FooterLink>
+                    <FooterLink to='/avaliações'>Teste</FooterLink>
+                    <FooterLink to='/Investidores'>Teste</FooterLink>
+                    <FooterLink to='/termos de serviço'>Teste</FooterLink>
                 </FooterLinksItems>
                 <FooterLinksItems>
                     <FooterLinksTitle>Contate-nos</FooterLinksTitle>
-                    <FooterLink to='/sign-up'></FooterLink>
-                    <FooterLink to='/avaliações'></FooterLink>
-                    <FooterLink to='/Investidores'></FooterLink>
-                    <FooterLink to='/termos de serviço'></FooterLink>
+                    <FooterLink to='/sign-up'>Teste</FooterLink>
+                    <FooterLink to='/avaliações'>Teste</FooterLink>
+                    <FooterLink to='/Investidores'>Teste</FooterLink>
+                    <FooterLink to='/termos de serviço'>Teste</FooterLink>
                 </FooterLinksItems>
                 <FooterLinksItems>
                     <FooterLinksTitle>Vídeos</FooterLinksTitle>
-                    <FooterLink to='/sign-up'></FooterLink>
-                    <FooterLink to='/avaliações'></FooterLink>
-                    <FooterLink to='/Investidores'></FooterLink>
-                    <FooterLink to='/termos de serviço'></FooterLink>
+                    <FooterLink to='/sign-up'>Teste</FooterLink>
+                    <FooterLink to='/avaliações'>Teste</FooterLink>
+                    <FooterLink to='/Investidores'>Teste</FooterLink>
+                    <FooterLink to='/termos de serviço'>Teste</FooterLink>
                 </FooterLinksItems>
                 <FooterLinksItems>
                     <FooterLinksTitle>Redes Sociais</FooterLinksTitle>
-                    <FooterLink to='/sign-up'></FooterLink>
-                    <FooterLink to='/avaliações'></FooterLink>
-                    <FooterLink to='/Investidores'></FooterLink>
-                    <FooterLink to='/termos de serviço'></FooterLink>
+                    <FooterLink to='/sign-up'>Teste</FooterLink>
+                    <FooterLink to='/avaliações'>Teste</FooterLink>
+                    <FooterLink to='/Investidores'>Teste</FooterLink>
+                    <FooterLink to='/termos de serviço'>Teste</FooterLink>
                 </FooterLinksItems>
             </FooterLinkWrapper>
         </FooterLinksContainer>
