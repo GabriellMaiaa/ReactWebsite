@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../../globalStyles.js'
-import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, FormInput, Form } from './Footer.elements.js'
+import { FooterContainer, FooterSubscription, FooterSubHeading, FooterSubText, FormInput, Form, 
+  FooterLinksContainer, FooterLinkWrapper, FooterLinksItems, FooterLinksTitle, FooterLink } from './Footer.elements.js'
 
 const Footer = () => {
   return (
@@ -21,6 +22,27 @@ const Footer = () => {
             <FooterLinkWrapper>
                 <FooterLinksItems>
                     <FooterLinksTitle>Sobre nós</FooterLinksTitle>
+                    <FooterLink to='/sign-up'></FooterLink>
+                    <FooterLink to='/avaliações'></FooterLink>
+                    <FooterLink to='/Investidores'></FooterLink>
+                    <FooterLink to='/termos de serviço'></FooterLink>
+                </FooterLinksItems>
+                <FooterLinksItems>
+                    <FooterLinksTitle>Contate-nos</FooterLinksTitle>
+                    <FooterLink to='/sign-up'></FooterLink>
+                    <FooterLink to='/avaliações'></FooterLink>
+                    <FooterLink to='/Investidores'></FooterLink>
+                    <FooterLink to='/termos de serviço'></FooterLink>
+                </FooterLinksItems>
+                <FooterLinksItems>
+                    <FooterLinksTitle>Vídeos</FooterLinksTitle>
+                    <FooterLink to='/sign-up'></FooterLink>
+                    <FooterLink to='/avaliações'></FooterLink>
+                    <FooterLink to='/Investidores'></FooterLink>
+                    <FooterLink to='/termos de serviço'></FooterLink>
+                </FooterLinksItems>
+                <FooterLinksItems>
+                    <FooterLinksTitle>Redes Sociais</FooterLinksTitle>
                     <FooterLink to='/sign-up'></FooterLink>
                     <FooterLink to='/avaliações'></FooterLink>
                     <FooterLink to='/Investidores'></FooterLink>
